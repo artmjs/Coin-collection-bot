@@ -1,0 +1,56 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+json_merge.py
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+# PyCharm / IntelliJ
+.idea/
+
+# VSCode
+.vscode/
+
+# -------------------------
+# Secrets / Local config
+# -------------------------
+# Wallet & key material
+
+*.key
+*.pem
+*.der
+
+# Env files
+.env
+.env.*
+*.env
+
+# Local override configs
+config_local.py
+*.local.json
